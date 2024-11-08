@@ -1,0 +1,38 @@
+name: frontend_frenzy
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  persistent_bottom_nav_bar: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - assets/icons/
+  fonts:
+    - family: coda
+      fonts:
+      - asset: assets\fonts\Coda\Coda-Regular.ttf
+      - asset: assets\fonts\Coda\Coda-ExtraBold.ttf
+        weight: 800
+
+    - family: allerta
+      fonts:
+      - asset: assets/fonts/Allerta-Regular.ttf
+
+    - family: comfortaa
+      fonts:
+      - asset: assets\fonts\Comfortaa-VariableFont_wght.ttf 
